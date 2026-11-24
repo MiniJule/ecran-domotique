@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Écran domotique</title>
+<style>
+  :root { --bg: #151E2F; --fg: #A9F5FF; --dim: #8FA3C4; --line: #2A3A52; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, "Segoe UI", Inter, Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font-size: 40px; margin: 0 0 8px; }
+  p, li { color: var(--dim); }
+  a { color: var(--fg); }
+  .card { border: 1px solid var(--line); border-radius: 18px; padding: 20px 24px; margin: 28px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Écran domotique</h1>
+  <p>Application Android personnelle qui transforme un vieux téléphone posé sur un bureau en écran d'information, dans le style du mode StandBy d'iOS : heure, agenda, tâches, mails, musique de l'iPhone, météo et résumé du matin.</p>
+
+  <div class="card">
+    <p>Cette application est un <strong>projet personnel</strong>, utilisé par son seul auteur sur son propre téléphone. Elle n'est pas distribuée au public et n'est disponible sur aucune boutique d'applications.</p>
+    <p>Elle utilise les API Google suivantes, uniquement avec le compte de son auteur :</p>
+    <ul>
+      <li><strong>Google Tasks</strong> : afficher les tâches et les cocher ;</li>
+      <li><strong>Gmail</strong> (lecture seule) : afficher le nombre de mails non lus et leurs expéditeurs ;</li>
+      <li><strong>Google Drive</strong> (fichiers créés par l'application seulement) : lire deux petits fichiers de l'application.</li>
+    </ul>
+  </div>
+
+  <p><a href="confidentialite.html">Politique de confidentialité</a></p>
+</main>
+</body>
+</html>
